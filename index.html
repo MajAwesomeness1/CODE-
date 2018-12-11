@@ -1,0 +1,38 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+</style>
+<link rel="stylesheet" href="style.css">
+<nav> 
+    <ul class=nav>
+      <li><a href="pizzas.html" class=nav1>Pizzas</a></li>
+      <li ><a href="menu.html" class=nav1 >Menu</a></li>
+      <li ><a href="gas.html" class=nav1>Gas & Air</a></li>
+      <li ><a href="baskinrobbins.html" class=nav1>Baskin-Robbins</a></li>
+      <li ><a href="locations.html" class=nav1>Locations</a></li>
+    </ul>
+  </nav>
+<body class=index>
+<h1 class="index2">Welcome To Dawkins's C-Store</h1>
+   <h2 class=index4>About us</h2>
+   <ul class=list>
+<p>Our services are the best around.We have a wide selection of food and services for everyone. From Pizza to Ice cream we have it all. Call (731)-749-0660 for any questions or concerns. The staff will help with anything you need or want.
+   The Owner of the establishment is <strong>BJ Dawkins</strong></p>
+<img class="mySlides" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/42506516_1634588510003453_3410544495081553920_o.jpg?_nc_cat=111&_nc_ht=scontent-atl3-1.xx&oh=ed981f7380a845c8484529dcec3daa9f&oe=5C4AFDEF">
+<img class="mySlides" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/46762115_1928411137245970_8933164283529789440_o.jpg?_nc_cat=107&_nc_ht=scontent-atl3-1.xx&oh=172c73b45615f70378bf16f80d88ae17&oe=5C6A563A">
+<img class="mySlides" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Baskin-Robbins_logo.svg/220px-Baskin-Robbins_logo.svg.png" alt="">      
+      <script>
+         var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 5000);}
+      </script>
+     </body>
